@@ -1,6 +1,8 @@
 const yargs = require('yargs')
 const notes = require('./notes.js')
 
+//Notes-App ==> main goal is handling file system (fs) & yargs (for commands and arguments from terminal)
+
 yargs.version('1.1.0')
 
 // const command = process.argv[2]
